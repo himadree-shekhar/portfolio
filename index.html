@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #313335;
+      padding: 25px;
+    }
+
+    
+    body {
+        background-image: url("bg-pattern.jpg");
+    }
+
+    .jumbotron  {
+        background-image: url("bg-head2.jpg");
+        background-size:     cover;                      /* <------ */
+        background-repeat:   no-repeat;
+        background-position: center center;              /* optional, center the image */
+        height: 500px;
+    }
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Himadree Portfolio</h1>      
+    <p>Hello I am Himadree.Lets start...</p>
+  </div>
+</div>
+  
+<div class="container-fluid bg-3 text-center">    
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="http://placehold.it/320x200" alt="ALT NAME">
+      <div class="caption">
+        <h3>Project Name</h3>
+        <p>Description</p>
+        <p align="center"><a id="c1" href="http://duais.cse.du.ac.bd/modules/payroll/" class="btn btn-primary btn-block">Open</a></p>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="http://placehold.it/320x200" alt="ALT NAME">
+      <div class="caption">
+        <h3>Project Name</h3>
+        <p>Description</p>
+        <p align="center"><a id="c2" href="http://duais.cse.du.ac.bd/modules/payroll/hr/" class="btn btn-primary btn-block">Open</a></p>
+      </div>
+    </div>
+
+    <div class="col-sm-3">
+      <img src="http://placehold.it/320x200" alt="ALT NAME">
+      <div class="caption">
+        <h3>Project Name: Bus Ticket</h3>
+        <p>Description: Looking for host</p>
+        <p align="center"><a id="c3" href="https://himadree-shekhar.github.io/portfolio/" class="btn btn-primary btn-block">Open</a></p>
+      </div>
+    </div>
+
+    <div class="col-sm-3" style="float: left;">
+      <img src="http://placehold.it/320x200" alt="ALT NAME">
+      <div class="caption">
+        <h3>Project Name: Car Vault</h3>
+        <p>Description Looking for host</p>
+        <p align="center"><a id="c4" href="https://himadree-shekhar.github.io/portfolio/" class="btn btn-primary btn-block">Open</a></p>
+      </div>
+    </div>
+
+    
+    
+  </div>
+</div><br>
+
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+
+</html>
+
